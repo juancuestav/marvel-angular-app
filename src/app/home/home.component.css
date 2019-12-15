@@ -1,0 +1,16 @@
+.video {
+    margin: 40px;
+}
+
+.video-top {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.video-bottom {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
