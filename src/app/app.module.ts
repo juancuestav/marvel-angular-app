@@ -10,11 +10,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { PerfilComponent } from './perfil/perfil.component';
 
 const routes : Routes = [
   { path:"", component: HomeComponent},
   { path:"videos", component: VideosComponent},
   { path:"historietas", component: HistorietasComponent},
+  { path: "perfil", component: PerfilComponent },
   { path:"**", component: HomeComponent}
 ];
 
@@ -24,7 +26,8 @@ const routes : Routes = [
     HomeComponent,
     VideosComponent,
     HistorietasComponent,
-    FooterComponent
+    FooterComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,

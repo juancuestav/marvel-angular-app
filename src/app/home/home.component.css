@@ -1,16 +1,25 @@
-.video {
-    margin: 40px;
+.video-left {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 .video-top {
-    margin-top: 40px;
+    
     margin-right: 40px;
     margin-left: 40px;
 }
 
 .video-bottom {
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 4px;
     margin-right: 40px;
     margin-left: 40px;
 }
+
+.scrolling {
+    height:500px;
+    width: 490px;
+    overflow-y: scroll;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
